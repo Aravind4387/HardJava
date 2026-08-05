@@ -4,6 +4,6 @@ public class DellWeatherWidget implements IWeatherFinder {
 
     @Override
     public double getWeather(String zipCode) {
-        return 27;
+        return 28;
     }
 }

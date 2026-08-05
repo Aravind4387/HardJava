@@ -5,6 +5,6 @@ public class AppleWeatherWidget implements IWeatherFinder{
 
     @Override
     public double getWeather(String zipCode) {
-        return 25;
+        return 30;
     }
 }
