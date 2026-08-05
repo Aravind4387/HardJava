@@ -4,7 +4,7 @@ public class WeatherWidget {
 
     IWeatherFinder weatherFinder;
     public void showWeather(String zipCode){
-        double temperature = 0.0;
+        double temperature = 0.1;
 
         temperature = weatherFinder.getWeather(String zipCode);
         System.out.println("temperature : " + temperature);
